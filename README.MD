@@ -4,7 +4,7 @@
 
 
 **Nav**
-- [x]Nav bar (home about contact shop) and have them all all link in one page
+- [x] Nav bar (home about contact shop) and have them all all link in one page
 
 **Home**
 - [x]	Header
