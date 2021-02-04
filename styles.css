@@ -9,6 +9,12 @@
 
 body{
     background-color: var(--primaryGrey);
+    
+}
+
+/* When a link is selected it wont just jump to the section it will smoothly transition there */
+html{
+	scroll-behavior: smooth;
 }
 
 
@@ -74,6 +80,36 @@ div.videoTitle h1{
     margin-bottom: 40px;
 }
 
+/* Shop Section */
+.sectionHeaders{
+    font-size: 3rem;
+    color: var(--fontColour);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.shopCards{
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 hr{
         height: 2px;
         background-color: black;
@@ -82,10 +118,11 @@ hr{
 
 
 /* Media Query*/
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 580px) {
 
 li a{
         text-align: center;
 }
+
 
 }

@@ -12,7 +12,7 @@
 - [x]	description of Video	
 
 **Shop**
-- []	Heading that tell you your at the shop
+- [x]	Heading that tell you your at the shop
 - []	cards with different options like monthly memberships (3 tiers)	
 - []	Modal on each card that tells you in more detail about each tier
 
