@@ -17,23 +17,22 @@
 - [x]	description of Video	
 
 **Shop**
-[]	Heading that tell you your at the shop
-[]	cards with different options like monthly memberships (3 tiers)	
-[]	Modal on each card that tells you in more detail about each tier
+- []	Heading that tell you your at the shop
+- []	cards with different options like monthly memberships (3 tiers)	
+- []	Modal on each card that tells you in more detail about each tier
 
 **About**
-[]	Heading 
-[]	A descritption of why the product was made 
-[]	some feedback and reviews (more cards maybe with a users picture and a review)
+- []	Heading 
+- []	A descritption of why the product was made 
+- []	some feedback and reviews (more cards maybe with a users picture and a review)
 
 **Contact**
-[]	Heading
-[]	List address, phone, email and any other info 
+- []	Heading
+- []	List address, phone, email and any other info 
 
 **Footer**
-[]	Socials
-[]	...
+- []	Socials
 
 
 **Additional Features**
-
+- []	modals or cards of all sensors used?
