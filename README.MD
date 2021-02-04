@@ -8,9 +8,13 @@
 -[x]Nav bar (home about contact shop) and have them all all link in one page
 **Home**
 - [x]Header
+=======
+- [x]	Nav bar (home about contact shop) and have them all all link in one page
+**Home**
+- [x]	Header
 
--[x]	video 
-[x]	description of Video	
+- [x]	video 
+- [x]	description of Video	
 
 **Shop**
 []	Heading that tell you your at the shop
