@@ -3,11 +3,13 @@ A website selling a product (CSS Temp Maybe?)
 Things to do
 
 
+**Nav**
+[x]	Nav bar (home about contact shop) and have them all all link in one page
 **Home**
-[]	Header
-[]	Nav bar (home about contact shop) and have them all all link in one page
-[]	video in middle of screen 
-[]	description of product	
+[x]	Header
+
+[x]	video 
+[x]	description of Video	
 
 **Shop**
 []	Heading that tell you your at the shop
@@ -26,3 +28,8 @@ Things to do
 **Footer**
 []	Socials
 []	...
+
+
+================
+a list of all parts used
+=================

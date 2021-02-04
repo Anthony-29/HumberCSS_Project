@@ -1,0 +1,91 @@
+:root {
+  --primaryGrn: #21AD4A;
+  --primaryGrey: #B8BBC2;
+  --navDarkGrey: #343A40;
+  --fontColour: #ebeeea;
+}
+
+
+
+body{
+    background-color: var(--primaryGrey);
+}
+
+
+/* Nav Bar */
+
+img.csslogo{
+    max-width: 100px;
+}
+
+
+/* End of Nav Bar */
+
+/* Home section */
+
+
+.homeHeadingdiv{
+    background: none;
+    background-color: var(--primaryGrn);
+}
+
+.homeJumbotronText{
+    color: #ebeeea;
+    text-align: center;
+}
+
+p.homeJumbotronPara{
+    font-size: 1.8rem;
+}
+
+h1.homeJumbotronHeader{
+    font-size: 4rem;
+}
+
+div.videoDesc{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+div.videoDesc p{
+    text-indent: 40px;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.card{
+    background-color: #707070;
+    margin-bottom: 10px;
+}
+
+div.videoTitle h1{
+    text-align: center;
+    color: var(--fontColour);
+    margin-bottom: 30px;
+}
+
+.homeVideo{
+    box-shadow: 0px 0px 8px 15px rgb(36, 36, 36);
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-bottom: 40px;
+}
+
+hr{
+        height: 2px;
+        background-color: black;
+        border: none;
+}
+
+
+/* Media Query*/
+@media only screen and (max-width: 540px) {
+
+li a{
+        text-align: center;
+}
+
+}
