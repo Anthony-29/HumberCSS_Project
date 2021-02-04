@@ -1,14 +1,14 @@
-A website selling a product (CSS Temp Maybe?)
+#A website selling a product (CSS Temp Maybe?)
 
-Things to do
+##hings to do
 
 
 **Nav**
---[x]	Nav bar (home about contact shop) and have them all all link in one page
+-[x]	Nav bar (home about contact shop) and have them all all link in one page
 **Home**
---[x]	Header
+-[x]	Header
 
---[x]	video 
+-[x]	video 
 [x]	description of Video	
 
 **Shop**
@@ -30,6 +30,5 @@ Things to do
 []	...
 
 
-================
-a list of all parts used
-=================
+**Additional Features**
+
