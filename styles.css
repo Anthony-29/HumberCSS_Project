@@ -12,6 +12,7 @@ body{
     
 }
 
+
 /* When a link is selected it wont just jump to the section it will smoothly transition there */
 html{
 	scroll-behavior: smooth;
@@ -25,6 +26,7 @@ img.csslogo{
 }
 
 
+
 /* End of Nav Bar */
 
 /* Home section */
@@ -36,7 +38,7 @@ img.csslogo{
 }
 
 .homeJumbotronText{
-    color: #ebeeea;
+    color: var(--fontColour);
     text-align: center;
 }
 
@@ -58,6 +60,7 @@ div.videoDesc p{
     text-indent: 40px;
     line-height: 1.6rem;
     font-size: 1.2rem;
+    color: #343A40;
 }
 
 .card{
@@ -105,13 +108,44 @@ div.videoTitle h1{
     width: 18rem;
 }
 
+.cardPrice{
+    text-align: center;
+}
+
+.cardPara{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 35px;
+}
+
+.iconCheck{
+    color: green;
+}
+
+.iconX{
+    color: red;
+}
 
 
+span.savings{
+    color: green;
+}
 
+span.spanTaxMonthly{
+    font-size: 1rem;
+    margin-left: -10px;
+}
 
+span.spanTaxYearly{
+    font-size: 1rem;
+}
 
-
-
+button.shopBtn{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
 
 
 
