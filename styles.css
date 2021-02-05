@@ -91,13 +91,19 @@ div.videoTitle h1{
 .shopCards{
     display: block;
     margin: auto;
+    margin-bottom: 35px;
+    background-color: var(--fontColour);
+    transition: background-color 1s ease-out;
+
 }
 
+.shopCards:hover{
+    background-color: white;
+}
 
-
-
-
-
+.responsiveCard{
+    width: 18rem;
+}
 
 
 
@@ -123,6 +129,18 @@ hr{
 li a{
         text-align: center;
 }
+}
+
+@media only screen and (max-width: 1000px) {
+.responsiveCard{
+    width: 14.9rem;
+}
+}
 
 
+
+@media only screen and (max-width: 768px) {
+.responsiveCard{
+    width: 18rem;
+}
 }
