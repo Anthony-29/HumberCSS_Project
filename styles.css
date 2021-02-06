@@ -91,7 +91,7 @@ div.videoTitle h1{
 
 .sectionHeaders{
     font-size: 3rem;
-    color: var(--fontColour);
+    color: var(--primaryGrn);
     text-align: center;
     margin-bottom: 50px;
 }
@@ -168,6 +168,19 @@ hr{
         border: none;
         margin: 40px 0;
 }
+
+
+
+/* About Section*/
+.accordion{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
 
 
 

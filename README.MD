@@ -17,7 +17,7 @@
 - [x]	Modal on each card that tells you in more detail about each tier
 
 **About**
-- []	Heading 
+- [x]	Heading 
 - []	A descritption of why the product was made 
 - []	some feedback and reviews (more cards maybe with a users picture and a review)
 
