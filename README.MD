@@ -13,8 +13,8 @@
 
 **Shop**
 - [x]	Heading that tell you your at the shop
-- []	cards with different options like monthly memberships (3 tiers)	
-- []	Modal on each card that tells you in more detail about each tier
+- [x]	cards with different options like monthly memberships (3 tiers)	
+- [x]	Modal on each card that tells you in more detail about each tier
 
 **About**
 - []	Heading 

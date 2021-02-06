@@ -102,7 +102,6 @@ div.videoTitle h1{
     margin-bottom: 35px;
     background-color: #c7c3c3; 
     transition: background-color 1s ease-out;
-
 }
 
 .shopCards:hover{
@@ -152,8 +151,16 @@ button.shopBtn{
     margin: auto;
 }
 
+h5.modalBodyTitle{
+    text-align: center;
+    padding: 15px;
+    text-transform: capitalize;
+}
 
 
+div.modal-body{
+    text-align: center;
+}
 
 hr{
         height: 2px;
@@ -161,6 +168,8 @@ hr{
         border: none;
         margin: 40px 0;
 }
+
+
 
 
 /* Media Query*/
