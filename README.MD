@@ -18,7 +18,7 @@
 
 **About**
 - [x]	Heading 
-- []	A descritption of why the product was made 
+- [x]	A descritption of why the product was made 
 - []	some feedback and reviews (more cards maybe with a users picture and a review)
 
 **Contact**

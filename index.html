@@ -153,7 +153,8 @@
                                     <i class="fas fa-check iconCheck"></i> 24/7 Support<br>
                                     <i class="fas fa-check iconCheck"></i> Multiple Admin Accounts
                                 </p>
-                                <button type="button" class="btn btn-primary shopBtn" data-toggle="modal" data-target=".monthlyModal">Learn More</button>
+                                <button type="button" class="btn btn-primary shopBtn" data-toggle="modal"
+                                    data-target=".monthlyModal">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -193,56 +194,108 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit, sapiente iusto minima omnis aspernatur sunt ad aut temporibus explicabo sed quasi quisquam voluptatum deserunt provident consequuntur possimus quis sequi voluptas eum quidem. Id non error, in dolores fugit tempore pariatur ratione vero aperiam ut, aut accusamus, possimus minima magni sequi debitis est dolor nisi dignissimos voluptate. Ut, perferendis. Nesciunt deleniti facere dolorem. Atque sit ad at itaque praesentium qui expedita beatae modi libero asperiores aperiam necessitatibus reprehenderit tempora assumenda eveniet, perferendis vitae quisquam non quam voluptates voluptas consequuntur. Incidunt laboriosam consequuntur molestiae saepe tenetur culpa aut sint perferendis voluptatem.</p>
+                <div class="col-12">
+                    <p class="aboutDesctiption">When we created this device, we had one thing in mind, Safety. With the specific sensors we used, we were able to create a device that needs no contact to work. The sensors we used are: temperature sensor, ultrasonic sensor, motion sensor and lastly a motor driver. Look below to see what each sensor does.</p>
                 </div>
+            </div>
+            <div class="row">
 
-                <div class="col-md-6">
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
+                <div class="col-12">
+                    <div class="accordion" id="sensorsAcordian">
+                        <div class="card aboutSensors">
                             <div class="card-header collapseBox" id="headingOne">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Collapsible Group Item #1
+                                    <button class="btn btn-block text-left accordianBtn" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                       Infrared Thermometer
                                     </button>
                                 </h2>
                             </div>
-                    
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#sensorsAcordian">
                                 <div class="card-body">
-                                    Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the
-                                    <code>.show</code> class.
+                                    <div class="row">
+                                        <div class="col-sm-12 col-lg-8">
+                                            <p>The MLX90614 is an infrared thermometer for non-contact temperature measurements. ... As a standard, the 10-bit PWM is
+                                            configured to continuously transmit the measured temperature in range of -20 to 120°C, with an output resolution of
+                                            0.14°C.</p>
+
+                                        </div>
+                                        <div class="col-sm-12 col-lg-4">
+                                            <img class="img-fluid sensorImg img-thumbnail" src="images/MLX90614.jpg" alt="MLX90614 Sensor" title="MLX90614 Sensor">
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card aboutSensors">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Collapsible Group Item #2
+                                    <button class="btn btn-block text-left collapsed accordianBtn" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        ultrasonic Sensor
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#sensorsAcordian">
                                 <div class="card-body">
-                                    Some placeholder content for the second accordion panel. This panel is hidden by default.
+                                    <div class="row">
+                                        <div class="col-sm-12 col-lg-8">
+                                            <p>
+                                                An ultrasonic sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound
+                                                waves, and converts the reflected sound into an electrical signal. Ultrasonic waves travel faster than the speed of
+                                                audible sound (i.e. the sound that humans can hear).
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-4">
+                                            <img class="img-fluid sensorImg img-thumbnail" src="images/ultrasonic.jpg" alt="Ultrasonic Sensor" title="Ultrasonic Sensor">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card aboutSensors">
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Collapsible Group Item #3
+                                    <button class="btn btn-block text-left collapsed accordianBtn" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Motion Sensor
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#sensorsAcordian">
                                 <div class="card-body">
-                                    And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by
+                                    And lastly, the placeholder content for the third and final accordion panel. This
+                                    panel is hidden by
+                                    default.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card aboutSensors">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-block text-left collapsed accordianBtn" type="button"
+                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Motor Driver
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#sensorsAcordian">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel. This
+                                    panel is hidden by
                                     default.
                                 </div>
                             </div>
@@ -250,12 +303,11 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
+
+
     </div>
-    
+
 
     <!-- End of about section -->
 
@@ -278,9 +330,11 @@
                 </div>
                 <div class="modal-body">
                     <h5 class="modalBodyTitle">Great for small businesses</h5>
-                    <p> With the free version of our membership plan you get, the full functionally of the app but with limitations. These limitations include: In app ads, 5GB of cloud storage a month, no 24/7 customer support from our team members and only 1 (one) admin account.
-                        </p>
-                    </div>
+                    <p> With the free version of our membership plan you get, the full functionally of the app but with
+                        limitations. These limitations include: In app ads, 5GB of cloud storage a month, no 24/7
+                        customer support from our team members and only 1 (one) admin account.
+                    </p>
+                </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
@@ -291,57 +345,64 @@
 
     <!-- Monthly -->
 
-        <div class="modal fade monthlyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Option: Monthly</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <h5 class="modalBodyTitle">Great for any businesses</h5>
-                       <p> With the monthly version of our membership plan you get the full functionally of the app, this includes no in app adds, 24/7 support from out team members and the ability to have mutliple admin accounts. The only difference between this and the yearly subscription is you only get 15 GB of cloud storage a month.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
+    <div class="modal fade monthlyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Option: Monthly</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modalBodyTitle">Great for any businesses</h5>
+                    <p> With the monthly version of our membership plan you get the full functionally of the app, this
+                        includes no in app adds, 24/7 support from out team members and the ability to have mutliple
+                        admin accounts. The only difference between this and the yearly subscription is you only get 15
+                        GB of cloud storage a month.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+    </div>
 
     <!-- End of monthly -->
 
     <!-- Yearly -->
 
-            <div class="modal fade yearlyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Option: Yearly</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="modalBodyTitle">Great for large businesses</h5>
-                           <p> With the yearly version of our membership plan you get, the full functionally with zero limitations. This means you get unlimited monthly cloud storage, 24/7 customer support form our team members, unlimited admin accounts and no in app ads.
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
+    <div class="modal fade yearlyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Option: Yearly</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modalBodyTitle">Great for large businesses</h5>
+                    <p> With the yearly version of our membership plan you get, the full functionally with zero
+                        limitations. This means you get unlimited monthly cloud storage, 24/7 customer support form our
+                        team members, unlimited admin accounts and no in app ads.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
             </div>
+        </div>
+    </div>
 
     <!-- End of Yearly -->
 
     <!-- End Of Free, $4.99, $49.99 Modal -->
 
-    
+
     <!-- END OF MODALS -->
 
 
