@@ -189,15 +189,25 @@ div p.aboutDesctiption{
 }
 
 .sensorImg{
-
+    border: 3px solid black;
     display: block;
     margin: auto;
 }
 
+.abc{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
 
 
-
-
+.reviewCards{
+    margin: auto;
+    margin-bottom: 40px;
+}
 
 
 /* Media Query*/
@@ -232,11 +242,15 @@ div p.aboutDesctiption{
 
 
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 .responsiveCard{
     width: 14.9rem;
 }
 
+.reviewPanels{
+    width: 370px;
+
+}
 
 }
 
