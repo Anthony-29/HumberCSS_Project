@@ -19,6 +19,7 @@
 **About**
 - [x]	Heading 
 - [x]	A descritption of why the product was made 
+- [x]	Information about what each sensor does and how it works
 - []	some feedback and reviews (more cards maybe with a users picture and a review)
 
 **Contact**
