@@ -194,7 +194,7 @@ div p.aboutDesctiption{
     margin: auto;
 }
 
-.abc{
+.reviewImg{
     border-radius: 50%;
     height: 50%;
     width: 50%;
@@ -207,7 +207,17 @@ div p.aboutDesctiption{
 .reviewCards{
     margin: auto;
     margin-bottom: 40px;
+    color: #cfcfcf;
 }
+
+
+.fa-star, .fa-star-half-alt{
+    margin-bottom: 10px;
+    color: gold;
+}
+
+
+
 
 
 /* Media Query*/

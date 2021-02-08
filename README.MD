@@ -20,15 +20,15 @@
 - [x]	Heading 
 - [x]	A descritption of why the product was made 
 - [x]	Information about what each sensor does and how it works
-- []	some feedback and reviews (more cards maybe with a users picture and a review)
+- [x]	some feedback and reviews (more cards maybe with a users picture and a review)
 
 **Contact**
 - []	Heading
-- []	List address, phone, email and any other info 
+- []	Forum? Email section 
 
 **Footer**
 - []	Socials
 
 
 **Additional Features**
-- []	modals or cards of all sensors used?
+- [x]	modals or cards of all sensors used?
