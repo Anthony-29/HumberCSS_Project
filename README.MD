@@ -32,3 +32,4 @@
 
 **Additional Features**
 - [x]	modals or cards of all sensors used?
+- []    Floating back to top button?
