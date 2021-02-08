@@ -234,8 +234,21 @@ h2.contactH2{
     color: rgb(31, 32, 31);
 }
 
+/* Footer */
+.footDiv{
+    /* display: inline-block; */
+    /* width: 100%; */
+    text-align: center; 
+}
 
+.footIcon{
+    color: white;
+    margin: 10px;   
+}
 
+p.footerPara{
+    color: white;
+}
 
 
 
