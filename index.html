@@ -16,10 +16,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;900&family=Titillium+Web:wght@400;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 
 
     <title>Covid Security System</title>
+    <!-- title img -->
+    <link rel="shortcut icon" href="images/cssLogo.png" />
 </head>
 
 <body>
@@ -76,21 +83,7 @@
 
             <div class="col-md-12 col-xl-4">
                 <div class="videoDesc">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus aliquam ea facere iure
-                        corrupti,
-                        voluptatibus deleniti quas! Alias ex illo error. Reiciendis sapiente perspiciatis ducimus quam
-                        corporis
-                        adipisci, inventore harum quo sequi quae repudiandae odio ratione praesentium commodi iusto
-                        totam a dolorem
-                        facere obcaecati natus molestiae, dolorum voluptatem sunt. Reprehenderit eius quod ipsum odio et
-                        enim. Nihil
-                        iste odio debitis velit sapiente? Minus corporis asperiores perspiciatis totam earum alias dolor
-                        tempora aut
-                        dolores magni impedit voluptates tenetur hic saepe porro repellat, eaque modi deserunt iusto
-                        obcaecati atque
-                        at voluptatem dignissimos. Facere deserunt similique, laboriosam obcaecati recusandae ipsa unde
-                        illum? <b>We were never able to get together and make the whole project due to covid so this is
-                            a video similar to what we wanted to create.</b></p>
+                    <p>Due to covid we were unable to complete the full project in class. This is a video similar to what our final product would have looked like. A major noticable difference between this one and ours is the card they have to swipe. With our build, the hardware would be turned on with the use of the motion sensor and the help of the ultrasonic sensor.</p>
                 </div>
             </div>
 
@@ -223,10 +216,7 @@
                                     <div class="row">
                                         <div class="col-sm-12 col-lg-8">
                                             <p>The MLX90614 is an infrared thermometer for non-contact temperature
-                                                measurements. ... As a standard, the 10-bit PWM is
-                                                configured to continuously transmit the measured temperature in range of
-                                                -20 to 120°C, with an output resolution of
-                                                0.14°C.</p>
+                                                measurements. It has a temperature in range of -20 to 120°C. In this project it is used to check the usesrs temperature before enterting the building</p>
 
                                         </div>
                                         <div class="col-sm-12 col-lg-4">
@@ -259,8 +249,7 @@
                                                 An ultrasonic sensor is an electronic device that measures the distance
                                                 of a target object by emitting ultrasonic sound
                                                 waves, and converts the reflected sound into an electrical signal.
-                                                Ultrasonic waves travel faster than the speed of
-                                                audible sound (i.e. the sound that humans can hear).
+                                                For our project, it is used to indicate to whether the user is in a reasonable range for the temperature sensor to get an accurate temperature. 
                                             </p>
                                         </div>
                                         <div class="col-sm-12 col-lg-4">
@@ -288,9 +277,7 @@
                                         <div class="col-sm-12 col-lg-8">
                                             <p>
                                                 A motion detector is an electrical device that utilizes a sensor to
-                                                detect nearby motion. Such a device is often
-                                                integrated as a component of a system that automatically performs a task
-                                                or alerts a user of motion in an area
+                                                detect nearby motion. It is used to turn on the whole system and let all the other sensors know they are about to be used.
                                             </p>
                                         </div>
                                         <div class="col-sm-12 col-lg-4">
@@ -318,10 +305,7 @@
                                     <div class="row">
                                         <div class="col-sm-12 col-lg-8">
                                             <p>
-                                                TB6612FNG is a driver IC for DC motor with output transistor in LD MOS
-                                                structure with low ON-resistor. Two input
-                                                signals, IN1 and IN2, can choose one of four modes such as CW, CCW,
-                                                short brake, and stop mode.
+                                                The TB6612FNG is capable of driving two motors at up to 1.2A of constant current. Once the temperature sensors detects a temperature thats in a reasonable range, it will send a signal to the motor driver to move the lock allowing the person enter the building.
                                             </p>
                                         </div>
                                         <div class="col-sm-12 col-lg-4">
@@ -453,7 +437,7 @@
             <div class="container-fluid footDiv">
                 <span class="text-muted">
                 <a href="https://www.linkedin.com/in/anthony-paul-fontana-651873186/"  target="_blank"> <i class="fab fa-linkedin fa-3x footIcon"></i></a>
-                <a href=""  target="_blank"> <i class="fab fa-instagram-square fa-3x footIcon"></i></a>
+                <a href="https://www.instagram.com"  target="_blank"> <i class="fab fa-instagram-square fa-3x footIcon"></i></a>
                 </span>
                 <p class="footerPara">This was made with the help of Bootstap.</p>
             </div>

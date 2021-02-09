@@ -23,11 +23,11 @@
 - [x]	some feedback and reviews (more cards maybe with a users picture and a review)
 
 **Contact**
-- []	Heading
-- []	Forum? Email section 
+- [x]	Heading
+- [x]	Information about me
 
 **Footer**
-- []	Socials
+- [x]	Socials
 
 
 **Additional Features**
