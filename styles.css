@@ -60,7 +60,7 @@ h1.homeJumbotronHeader{
 }
 
 div.videoDesc{
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
 }
 
@@ -278,6 +278,9 @@ li a{
         text-align: center;
 }
 
+div.videoDesc{
+    text-align:center;
+}
 
 }
 
