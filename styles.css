@@ -242,6 +242,7 @@ h2.contactH2{
     color: rgb(31, 32, 31);
 }
 
+
 /* Footer */
 .footDiv{
     /* display: inline-block; */
@@ -281,6 +282,11 @@ li a{
 div.videoDesc{
     text-align:center;
 }
+
+.contactEmail{
+    font-size: 1.8rem;
+}
+
 
 }
 
