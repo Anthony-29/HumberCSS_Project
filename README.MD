@@ -1,6 +1,4 @@
-#A website selling a product (CSS Temp Maybe?)
-
-##Things to do
+**Things to do**
 
 
 **Nav**
