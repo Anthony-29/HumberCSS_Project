@@ -1,3 +1,7 @@
+*Visit the site here: https://humbercssproject.netlify.app*
+
+
+
 **Things to do**
 
 
@@ -18,7 +22,7 @@
 - [x]	Heading 
 - [x]	A descritption of why the product was made 
 - [x]	Information about what each sensor does and how it works
-- [x]	some feedback and reviews (more cards maybe with a users picture and a review)
+- [x]	some feedback and reviews (more cards maybe with a users picture and a review. All reviews are fake)
 
 **Contact**
 - [x]	Heading
